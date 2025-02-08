@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "{",
+                "    \"configurations\": [",
+                "        {",
+                "            \"name\": \"Win32\",",
+                "            \"includePath\": [",
+                "                \"${LIBRARY-MANAGEMENT}/**\",  // Your project folder",
+                "                \"C:/MinGW/include\",       // MinGW includes",
+                "                \"C:/MinGW/lib/gcc/mingw32/9.2.0/include\" // Compiler-specific includes",
+                "            ],",
+                "            \"intelliSenseMode\": \"windows-gcc-x64\",",
+                "            \"compilerPath\": \"C:/MinGW/bin/gcc.exe\",",
+                "            \"cStandard\": \"c11\",",
+                "            \"cppStandard\": \"c++17\"",
+                "        }",
+                "    ],",
+                "    \"version\": 4",
+                "}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "intelliSenseMode": "windows-gcc-x86"
+        }
+    ],
+    "version": 4
+}
